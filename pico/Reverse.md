@@ -36,3 +36,30 @@ After _all_ that, you get your flag.
 
 References:
 chatgpt, Stackoverflow and murking around.
+
+# Vault door 3
+
+**Flag:** `picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_79958f}`
+
+There is liteally no steps here, just reverse it using a bitta python
+
+```py
+s = "jU5t_a_sna_3lpm18g947_u_4_m9r54f"
+
+buffer = ["z"] * len(s)
+
+for i in range(8):
+    buffer[i] = s[i];
+
+for i in range(8,16):
+    buffer[23-i] = s[i];
+
+for i in range(16,32,2):
+    buffer[46-i] = s[i];
+
+for i in range(17, 32,2):
+    buffer[i] = s[i]
+
+print(''.join(buffer))
+```
+There u go.
