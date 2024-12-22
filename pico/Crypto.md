@@ -91,9 +91,11 @@ True
 ```
 
 So some googling around gives you this [link](https://crypto.stackexchange.com/questions/18301/textbook-rsa-with-exponent-e-3)
-which seems too easy to be true but seemed worth a shot - and it was. Wish I came up with how to make the
+which seems too easy to be true but seemed worth a shot - and it actually worked. Wish I came up with how to make the
 string though.
 
 Might impliment rsa from scratch to actually understand it - dosent look that hard really.
 
 (on that note, starting to love sympy - works beautifully well and is extremely nice to work with).
+
+[Relavant xkcd for this entire thing](https://xkcd.com/538/)

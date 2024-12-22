@@ -156,3 +156,12 @@ for i in range(17, 32,2):
 print(''.join(buffer))
 ```
 There u go.
+
+# Safe Opener 2
+
+**Flag:** `picoCTF{SAf3_0p3n3rr_y0u_solv3d_it_5bfbd6f1}`
+
+try opening it in ida, where it screams that it's not a binary. run `file`, says it's a compiled java file ?
+anyway, try catting it to get a feel for the format, and the flag pops out.
+
+I have no clue how this is a medium level chall. I randomly selected it and am too lazy to find a harder one now though, so :P

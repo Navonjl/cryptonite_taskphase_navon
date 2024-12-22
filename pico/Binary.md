@@ -49,3 +49,15 @@ CTF{L34k1ng_Fl4g_0ff_St4ck_95f60617}
 missed the pico part as it probably wasn't properly aligned. What do you do if part of the flag was stuck there ?
 
 No real clue, but $i%x is probably the way, if I had to guess.
+
+# two-sum
+
+**Flag** `picoCTF{Tw0_Sum_Integer_Bu773R_0v3rfl0w_48
+2d8fc4}`
+
+Another cheesy challenge really, but here you go -
+The chall asks for n1 > n1 + n2 - obviously n1 must overflow.
+Find out that a c int uses 4 bytes and calculate approximate overflow values -
+2147483647 2
+
+and type it in and get the flag
